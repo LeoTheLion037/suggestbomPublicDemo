@@ -18,26 +18,37 @@ Currently our tool uses an API key from Anthropic that runs the SBOM/VEX docs th
 
 In two seperate terminal windows:
 
+
 First Terminal Window:
+
 cd back
 
 node server.js
 
+
 Second Terminal Window:
+
 cd front/react_app
 
 npm run build
 
 npm start
 
+
 When first running this project, you will encounter dependency issues. Whenever you get this type of error, be sure to run:
+
 
 npm install [name of missing package]
 
+
 For example:
+
 npm install react-router-dom
+
 npm install express
+
 npm install cors
+
 npm install socket.io
 
 
