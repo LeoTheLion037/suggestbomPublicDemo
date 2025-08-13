@@ -20,11 +20,14 @@ In two seperate terminal windows:
 
 First Terminal Window:
 cd back
+
 node server.js
 
 Second Terminal Window:
 cd front/react_app
+
 npm run build
+
 npm start
 
 When first running this project, you will encounter dependency issues. Whenever you get this type of error, be sure to run:
