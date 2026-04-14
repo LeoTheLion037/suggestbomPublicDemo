@@ -71,7 +71,7 @@ function execPromise(command, options = {}) {
             // If there's an error, check if it's critical
             if (error) {
                 // For Syft/Grype, warnings don't cause exit code errors
-                // But if they do, check if we still got useful output
+                // But if they do, check if we still got useful output 
                 if (stdout && stderr.includes('WARN') && !stderr.includes('ERROR')) {
                     console.log('Command completed with warnings:', stderr);
                     resolve(stdout);
